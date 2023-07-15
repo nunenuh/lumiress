@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lumiress"
+version = "0.1.0"
+description = ""
+authors = ["Lalu Erfandi Maula Yusnu <nunenuh@gmaill.com>"]
+readme = "README.md"
+packages = [{include = "lumiress", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+pytest = "^7.4.0"
+typer = {extras = ["all"], version = "^0.9.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
