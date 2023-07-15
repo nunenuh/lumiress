@@ -17,6 +17,7 @@ torchaudio = "0.11.0"
 pytest = "^7.4.0"
 ipykernel = "^6.24.0"
 pre-commit = "^3.3.3"
+safety = "^2.3.5"
 
 
 [[tool.poetry.source]]
