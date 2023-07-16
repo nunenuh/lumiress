@@ -2,8 +2,8 @@ import unittest
 
 import torch
 
-from lumiress.models.mirnetv2_arch import (MRB, RCB, RRG, SKFF, ContextBlock, Down,
-                                      DownSample, Up, UpSample)
+from lumiress.models.mirnetv2_arch import (MRB, RCB, RRG, SKFF, ContextBlock,
+                                           Down, DownSample, Up, UpSample)
 
 
 class MIRNETv2SubmoduleTestCase(unittest.TestCase):

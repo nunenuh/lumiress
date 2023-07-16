@@ -23,6 +23,8 @@ safety = "^2.3.5"
 pytest-mock = "^3.11.1"
 coverage = "^7.2.7"
 pytest-cov = "^4.1.0"
+matplotlib = "^3.7.2"
+scikit-image = "^0.21.0"
 
 
 [[tool.poetry.source]]
