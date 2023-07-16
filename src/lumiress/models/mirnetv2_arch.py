@@ -351,6 +351,3 @@ class MIRNetV2(nn.Module):
             out_img += inp_img
 
         return out_img
-
-
-
