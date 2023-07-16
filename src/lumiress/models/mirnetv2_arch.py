@@ -295,7 +295,7 @@ class RRG(nn.Module):
 
 ##########################################################################
 ##---------- MIRNet  -----------------------
-class MIRNet_v2(nn.Module):
+class MIRNetV2(nn.Module):
     def __init__(
         self,
         inp_channels=3,
@@ -310,7 +310,7 @@ class MIRNet_v2(nn.Module):
         bias=False,
         task=None,
     ):
-        super(MIRNet_v2, self).__init__()
+        super(MIRNetV2, self).__init__()
 
         self.task = task
 
@@ -351,3 +351,6 @@ class MIRNet_v2(nn.Module):
             out_img += inp_img
 
         return out_img
+
+
+

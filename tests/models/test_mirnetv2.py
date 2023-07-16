@@ -2,12 +2,12 @@ import unittest
 
 import torch
 
-from lumiress.models.mirnet_v2_arch import MIRNet_v2
+from lumiress.models.mirnetv2_arch import MIRNetV2
 
 
 class MIRNetV2TestCase(unittest.TestCase):
     def setUp(self) -> None:
-        self.model = MIRNet_v2()
+        self.model = MIRNetV2()
 
     def test_forward(self):
         height, width = 256, 256

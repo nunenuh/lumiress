@@ -35,7 +35,7 @@ repos:
     rev: 1.7.5 # Update me!
     hooks:
       - id: bandit
-        args: ["--ini", "iquote/.bandit"]
+        args: ["--ini", ".bandit"]
       #   additional_dependencies: ["bandit[toml]"]
 
   - repo: https://github.com/Lucas-C/pre-commit-hooks-safety

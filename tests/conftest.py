@@ -5,3 +5,8 @@ import pytest
 @pytest.fixture
 def sample_fixture():
     return "sample fixture"
+
+
+@pytest.fixture
+def weight_data():
+    pass
