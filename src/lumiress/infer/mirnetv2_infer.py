@@ -45,3 +45,23 @@ class MIRNetv2Inference:
         images_clean = ops.clamp_unpad(outputs, h, w)
         image_normalize = ops.normalize(images_clean[0])
         return image_normalize
+
+
+def get_inference(name: str, device="cpu") -> MIRNetv2Inference:
+    return MIRNetv2Inference(name=name, device=device)
+
+
+def lowlight_enchance(device: str = "cpu"):
+    return get_inference(name="lowlight_enhancement", device=device)
+
+
+def contrast_enhance(device: str = "cpu"):
+    return get_inference(name="contrast_enhancement", device=device)
+
+
+def super_resolution(device: str = "cpu"):
+    return get_inference(name="super_resolution", device=device)
+
+
+def real_denoising(device: str = "cpu"):
+    return get_inference(name="real_denoising", device=device)
